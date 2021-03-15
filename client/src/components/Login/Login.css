@@ -1,0 +1,40 @@
+.login-box {
+    display: flex;
+    width: 250px;
+    padding: 10px 20px;
+    font-size: 35px;
+    border-radius: 500px;
+    background-color: white;
+    color: black;
+}
+
+.login-icon {
+    font-size: 35px;
+    margin-right: 15px;
+}
+
+.login-content {
+    margin-top: 10px;
+}
+
+.login-box {
+    border: 1px solid black;
+ 
+    background: linear-gradient(to right, rgb(231, 228, 228) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+  }
+  
+  .login-box:hover {
+    background-position: left bottom;
+  }
+
+  .login_flex {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .login_flex button {
+      font-size: 26px !important;
+  }

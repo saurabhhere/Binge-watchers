@@ -1,0 +1,48 @@
+.container_header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-content {
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.headerBtn {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.headerBtn:hover {
+    background-color: rgb(243, 242, 242);
+    transform: translateY(2px);
+}
+
+.loginBtn {
+    padding: 10px 30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.header_flex {
+    display: flex;
+justify-content: space-around;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 960px){
+    .container_header {
+        margin-left: 10%;
+
+    }
+}
